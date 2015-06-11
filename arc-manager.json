@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "b4810bdb-6ff8-442f-b19e-b715bd327c08": "{\"id\":\"b4810bdb-6ff8-442f-b19e-b715bd327c08\",\"host\":\"localhost\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\",\"license-push\"],\"protocol\":\"http\",\"created\":1434048563377,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"tracing-demo-app\",\"version\":null,\"port\":3001},\"processes\":{\"pids\":[{\"parentPid\":1571,\"pid\":1572,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-11T18:50:01.792Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":2,\"serviceInstanceId\":1},{\"parentPid\":1572,\"pid\":2305,\"workerId\":5,\"listeningSockets\":[{\"addressType\":4,\"address\":\"0.0.0.0\",\"port\":3001}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":true,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-11T19:01:18.287Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":6,\"serviceInstanceId\":1}]},\"$$hashKey\":\"object:142\",\"isHostProblem\":true}"
+    },
+    "LoadBalancer": {}
+  }
+}
