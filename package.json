@@ -1,0 +1,28 @@
+{
+  "name": "tracing-example-app",
+  "version": "1.0.0",
+  "description": "Example application for the StrongLoop Arc Tracing module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/strongloop/tracing-example-app"
+  },
+  "keywords": [
+    "strongloop",
+    "arc",
+    "tracing",
+    "module"
+  ],
+  "author": "Simon Ho <simon@strongloop.com> (http://github.com/superkhau)",
+  "license": {
+    "name": "StrongLoop",
+    "url": "https://github.com/strongloop/tracing-example-app/blob/master/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/strongloop/tracing-example-app/issues"
+  },
+  "homepage": "https://github.com/strongloop/tracing-example-app"
+}
