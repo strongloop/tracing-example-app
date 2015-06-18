@@ -1,4 +1,4 @@
 while true; do
-  curl localhost:3000
+  curl localhost:3001
   sleep ${1-10}
 done
