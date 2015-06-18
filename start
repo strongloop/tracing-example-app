@@ -1,0 +1,3 @@
+slc start
+slc ctl set-size 1 1
+slc arc --feature tracing

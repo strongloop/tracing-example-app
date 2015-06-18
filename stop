@@ -1,0 +1,6 @@
+rm -rf ~/.strong-pm
+rm ./pmctl
+rm ./runctl
+rm ./arc-manager.json
+rm -rf .strong-pm
+slc ctl shutdown
