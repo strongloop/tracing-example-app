@@ -28,5 +28,9 @@
   "dependencies": {
     "express": "^4.12.4",
     "request": "^2.58.0"
-  }
+  },
+  "bundleDependencies": [
+    "express",
+    "request"
+  ]
 }
