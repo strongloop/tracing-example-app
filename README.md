@@ -29,7 +29,7 @@ Add a PM host with the following info:
 You should see a dropdown menu arrow on the right side of the Strong PM cell,
 click it and choose `push license` to validate your StrongLoop license.
 
-Then go back to the main menu and choose tracing. To start tracing, toggle the
+Go back to the main menu and choose tracing. To start tracing, toggle the
 on/off switch to the on position. You should see some graphs load, but not much
 will be happening as the server we started isn't doing much.
 
