@@ -14,7 +14,7 @@ This is an example application for the StrongLoop Arc Tracing module.
 The purpose of this example is demonstrate the tracing feature of StrongLoop
 Arc. We will analyze a simple HTTP server and monitor it's CPU/memory usage over
 time. When the server receives a request, an [intensive computing task is
-executed to cause a deliberate CPU/memory spike](index#L10-L17). While this is
+executed to cause a deliberate CPU/memory spike](index.js#L10-L17). While this is
 happening, we will be using Strong Arc to to view the fluctuations in the
 tracing graph data.
 
