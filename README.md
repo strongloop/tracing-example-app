@@ -45,7 +45,16 @@ to make repeated curl requests to the server:
 ./send-request
 ```
 
-That's it. For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
+Look at the tracing data again and you should see some fluctuations this time
+around. For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
+
+## Summary
+
+- `./start`
+- Sign in and validate your StrongLoop license
+- Toggle on/off switch to start tracing
+- `./send-request`
+- View the fluctuations in the tracing data
 
 ---
 
