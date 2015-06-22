@@ -60,7 +60,7 @@ Go back to the main menu and choose tracing.
 
 To start tracing, toggle the on/off switch to the on position. You should see
 some graphs load, but the data won't fluctuate because the server we started
-earlier is not busy handling requests.
+earlier is not busy handling requests yet.
 
 Create some variation in the graphs by running the [`send-requests-repeatedly`
 script](send-requests-repeatedly) to make repeated cURL requests to the server:
