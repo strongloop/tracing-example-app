@@ -7,8 +7,7 @@ This is an example application for the StrongLoop Arc Tracing module.
 
 - [Overview](#overview)
 - [Setup](#setup)
-- [How to run the example](#how-to-run-the-example)
-- [Summary of steps performed](#summary-of-steps-performed)
+- [Run](#run)
 
 ## Overview
 
@@ -72,7 +71,7 @@ the included [stop demo script](stop-demo):
 
 For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
 
-## Summary of steps performed
+### Summary of steps performed
 
 - `./start-demo`
 - Sign in and validate your StrongLoop license
