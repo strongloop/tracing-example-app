@@ -12,7 +12,7 @@ This is an example application for the StrongLoop Arc Tracing module.
 ## Overview
 
 The purpose of this example is demonstrate the tracing feature of StrongLoop
-Arc. The application is a basic HTTP server that runs an [intensive computing
+Arc. The application is a basic HTTP server that runs a [cpu/memory-intensive
 task when it receives a requests](index.js#L10-L17). This behavior is configured
 deliberately to let us monitor the fluctuations of CPU/memory usage over time.
 
