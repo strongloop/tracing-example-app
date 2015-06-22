@@ -34,6 +34,8 @@ $ npm install
 
 ---
 
+### Detailed steps
+
 Open up your console and run the [`start` script](start-demo):
 
 ```
