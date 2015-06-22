@@ -34,7 +34,7 @@ $ npm install
 
 ---
 
-Open up your console and run the [`start` script](start-demo):
+Open up your console and run the [`start-demo` script](start-demo):
 
 ```
 ./start-demo
@@ -62,7 +62,7 @@ To start tracing, toggle the on/off switch to the on position. You should see
 some graphs load, but the data won't fluctuate because the server we started
 earlier is not busy handling requests.
 
-Create some variation in the graphs by running the [`./send-requests-repeatedly`
+Create some variation in the graphs by running the [`send-requests-repeatedly`
 script](send-requests-repeatedly) to make repeated cURL requests to the server:
 
 ```
@@ -71,7 +71,7 @@ script](send-requests-repeatedly) to make repeated cURL requests to the server:
 
 Look at the tracing data again and you should see some fluctuations this time
 around. When you're finished with the example, you can stop everything running
-the included [stop demo script](stop-demo):
+the included [`stop-demo` script](stop-demo):
 
 ```
 ./stop-demo
