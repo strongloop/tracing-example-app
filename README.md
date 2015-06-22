@@ -26,6 +26,14 @@ $ npm install
 
 ## How to run the example
 
+- `./start-demo`
+- Sign in and validate your StrongLoop license
+- Toggle the on/off switch to start tracing
+- `./send-requests-repeatedly`
+- View the graph output in the StrongLoop Arc Tracing module
+
+---
+
 Open up your console and run the [`start` script](start-demo):
 
 ```
@@ -70,14 +78,6 @@ the included [stop demo script](stop-demo):
 ```
 
 For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
-
-### Summary of steps performed
-
-- `./start-demo`
-- Sign in and validate your StrongLoop license
-- Toggle the on/off switch to start tracing
-- `./send-requests-repeatedly`
-- View the graph output in the StrongLoop Arc Tracing module
 
 ---
 
