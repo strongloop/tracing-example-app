@@ -17,7 +17,7 @@ is a simple HTTP server. The server we include consists of one route at `/`
 which starts an internal busy loop when triggered. We do this to generate
 fluctuations (and thus more data) for the StrongLoop Arc tracing graphs.
 
-## Running the example
+## How to run the example
 
 Open up your console and run the [`start` script](start):
 
