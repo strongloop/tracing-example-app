@@ -1,11 +1,13 @@
 > You will need a StrongLoop license to run this beta demo. If you are
 interested, please contact callback@strongloop.com.
 
+# tracing-example-app
+
 - [Overview](#overview)
 - [How to run the example](#how-to-run-the-example)
 - [Summary of steps performed](#summary)
 
-# Overview
+## Overview
 
 This is an example application for the StrongLoop Arc Tracing module. The
 application is a simple HTTP server with one route at `/`. When `GET` requests
