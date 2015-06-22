@@ -1,4 +1,4 @@
-> You need a StrongLoop license to run this beta demo. If you are
+> You need a StrongLoop license to run this beta example. If you are
 interested, please contact callback@strongloop.com.
 
 # tracing-example-app
@@ -16,15 +16,15 @@ Arc. The application is a basic HTTP server that runs an [intensive computing
 task when it receives a requests](index.js#L10-L17). This behavior is configured
 deliberately to let us monitor the fluctuations of CPU/memory usage over time.
 
-## How to run the example
-
-Install:
+## Setting up the example
 
 ```
 $ git clone https://github.com/strongloop/tracing-example-app.git
 $ cd tracing-example-app
 $ npm install
 ```
+
+## How to run the example
 
 Open up your console and run the [`start` script](start-demo):
 
@@ -62,8 +62,8 @@ to make repeated cURL requests to the server:
 ```
 
 Look at the tracing data again and you should see some fluctuations this time
-around. When you're finished with the demo, you can stop everything running the
-included [stop demo script](stop-demo):
+around. When you're finished with the example, you can stop everything running
+the included [stop demo script](stop-demo):
 
 ```
 ./stop-demo
@@ -74,7 +74,7 @@ For more information on tracing, see the [official documentation](http://docs.st
 ## Summary of steps performed
 
 - `./start-demo`
-- Sign in and validate your StrongLoop licnese
+- Sign in and validate your StrongLoop license
 - Toggle the on/off switch to start tracing
 - `./send-requests-repeatedly`
 - View the graph output in the StrongLoop Arc Tracing module
