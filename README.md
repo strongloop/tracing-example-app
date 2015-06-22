@@ -12,12 +12,10 @@ This is an example application for the StrongLoop Arc Tracing module.
 ## Overview
 
 The purpose of this example is demonstrate the tracing feature of StrongLoop
-Arc. We will analyze a simple HTTP server and monitor it's CPU/memory usage over
-time. When the server receives a request, an [intensive computing task is
-executed to cause a deliberate CPU/memory spike](index.js#L10-L17). While this is
-happening, we will be using Strong Arc to to view the fluctuations in the
-tracing graph data.
-
+Arc. The application is a basic HTTP server that runs an [intensive computing
+task when it receives a requests](index.js#L10-L17). This behaviour is
+configured deliberately to let us monitor the fluctuations of CPU/memory usage
+over time.
 
 ## How to run the example
 
@@ -32,7 +30,7 @@ $ npm install
 Open up your console and run the [`start` script](start):
 
 ```
-./start
+./start-demo
 ```
 
 > This script starts the application using Strong PM, sets the number of running
@@ -61,19 +59,26 @@ Create some variation in the graphs by running the [`./send-request` script](sen
 to make repeated cURL requests to the server:
 
 ```
-./send-request
+./send-requests-repeatedly
 ```
 
 Look at the tracing data again and you should see some fluctuations this time
-around. For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
+around. When you're finished with the demo, you can stop everything running the
+included [stop demo script](stop-demo):
+
+```
+./stop-demo
+```
+
+For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
 
 ## Summary of steps performed
 
-- `./start`
-- Sign in and validate your StrongLoop license
-- Toggle on/off switch to start tracing
-- `./send-request`
-- View the fluctuations in the tracing data
+- `./run-demo`
+- Sign in and validate your StrongLoop licnese
+- Toggle the on/off switch to start tracing
+- `./send-requests-repeatedly
+- View the graph output in the StrongLoop Arc Tracing module
 
 ---
 
