@@ -26,8 +26,8 @@ Open up your console and run the [`start` script](start):
 ./start
 ```
 
-> The [`start` script](start) starts the application using Strong PM, sets the
-number of running instances to 1, and starts arc with the tracing feature.
+> This script starts the application using Strong PM, sets the number of running
+instances to 1, and starts StrongLoop Arc.
 
 You will see the "StrongLoop Arc Sign In" page.
 
@@ -49,7 +49,7 @@ some graphs load, but the data won't fluctuate because the server we started
 earlier is not busy handling requests.
 
 Create some variation in the graphs by running the [`./send-request` script](send-request)
-to make repeated curl requests to the server:
+to make repeated cURL requests to the server:
 
 ```
 ./send-request
