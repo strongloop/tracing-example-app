@@ -6,6 +6,7 @@ interested, please contact callback@strongloop.com.
 This is an example application for the StrongLoop Arc Tracing module.
 
 - [Overview](#overview)
+- [Setup](#setup)
 - [How to run the example](#how-to-run-the-example)
 - [Summary of steps performed](#summary-of-steps-performed)
 
