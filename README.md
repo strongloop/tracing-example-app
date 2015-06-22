@@ -74,10 +74,10 @@ For more information on tracing, see the [official documentation](http://docs.st
 
 ## Summary of steps performed
 
-- `./run-demo`
+- `./start-demo`
 - Sign in and validate your StrongLoop licnese
 - Toggle the on/off switch to start tracing
-- `./send-requests-repeatedly
+- `./send-requests-repeatedly`
 - View the graph output in the StrongLoop Arc Tracing module
 
 ---
