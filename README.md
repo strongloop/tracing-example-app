@@ -12,10 +12,11 @@ This is an example application for the StrongLoop Arc Tracing module.
 ## Overview
 
 The purpose of this example is demonstrate the tracing feature of StrongLoop
-Arc. To view the feature, we need to "trace" a node process, which in this case
-is a simple HTTP server. The server we include consists of one route at `/`
-which starts an internal busy loop when triggered. We do this to generate
-fluctuations (and thus more data) for the StrongLoop Arc tracing graphs.
+Arc. We will analyze a simple HTTP server and monitor it's CPU/memory usage over
+time. When the server receives a request, an intensive computing task is
+executed to cause a deliberate CPU/memory spike. While this is happening, we
+will be using Strong Arc to to view the fluctuations in the tracing graph data.
+
 
 ## How to run the example
 
