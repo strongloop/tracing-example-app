@@ -1,4 +1,4 @@
-> You will need a StrongLoop license to run this beta demo. If you are
+> You need a StrongLoop license to run this beta demo. If you are
 interested, please contact callback@strongloop.com.
 
 # tracing-example-app
@@ -20,6 +20,14 @@ tracing graph data.
 
 
 ## How to run the example
+
+Install:
+
+```
+$ git clone https://github.com/strongloop/tracing-example-app.git
+$ cd tracing-example-app
+$ npm install
+```
 
 Open up your console and run the [`start` script](start):
 
