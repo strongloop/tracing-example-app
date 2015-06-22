@@ -17,7 +17,7 @@ Arc. The application is a basic HTTP server that runs an [intensive computing
 task when it receives a requests](index.js#L10-L17). This behavior is configured
 deliberately to let us monitor the fluctuations of CPU/memory usage over time.
 
-## Setting up the example
+## Setup
 
 ```
 $ git clone https://github.com/strongloop/tracing-example-app.git
