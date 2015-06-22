@@ -24,7 +24,7 @@ $ cd tracing-example-app
 $ npm install
 ```
 
-## How to run the example
+## Run
 
 - `./start-demo`
 - Sign in and validate your StrongLoop license
