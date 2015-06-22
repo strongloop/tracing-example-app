@@ -3,16 +3,23 @@ interested, please contact callback@strongloop.com.
 
 # tracing-example-app
 
+This is an example application for the StrongLoop Arc Tracing module.
+
 - [Overview](#overview)
 - [How to run the example](#how-to-run-the-example)
-- [Summary of steps performed](#summary)
+- [Summary of steps performed](#summary-of-steps-performed)
 
 ## Overview
 
-This is an example application for the StrongLoop Arc Tracing module. The
-application is a simple HTTP server with one route at `/`. When `GET` requests
-are made to that endpoint, the server starts an internal loop to keep itself
-busy, which in turn helps generate tracing data.
+The purpose of this example is demonstrate the tracing feature of StrongLoop
+Arc. To view the feature, we need to "trace" a node process, which in this case
+is a  simple HTTP server. THe server we include consists of one route at `/`
+that starts an internal loop when triggered. 
+
+The application is a simple HTTP server with one route at `/`, when triggered
+starts an interal loop to keep the server busy.. When `GET`
+requests are made to that endpoint, the server starts an internal loop to keep
+itself busy. We want to keep the server busy to generate fluctionse, which in turn helps generate tracing data.
 
 ## How to run the example
 
