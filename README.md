@@ -3,7 +3,7 @@ interested, please contact callback@strongloop.com.
 
 - [Overview](#overview)
 - [How to run the example](#how-to-run-the-example)
-- [Summary](#summary)
+- [Summary of steps performed](#summary)
 
 # Overview
 
@@ -52,7 +52,7 @@ to make repeated curl requests to the server:
 Look at the tracing data again and you should see some fluctuations this time
 around. For more information on tracing, see the [official documentation](http://docs.strongloop.com/display/SLC/Tracing).
 
-## Summary
+## Summary of steps performed
 
 - `./start`
 - Sign in and validate your StrongLoop license
