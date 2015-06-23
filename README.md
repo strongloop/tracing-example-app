@@ -1,5 +1,5 @@
-> You need a StrongLoop license to run this beta example. If you are
-interested, please contact callback@strongloop.com.
+>**You need a StrongLoop license to run this beta example. If you are
+interested, please contact callback@strongloop.com.**
 
 # tracing-example-app
 
