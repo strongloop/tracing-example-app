@@ -30,7 +30,7 @@ $ npm install
 - `./start-demo`
 - Sign in and validate your StrongLoop license
 - Toggle the on/off switch to start tracing
-- `./send-requests-repeatedly`
+- `node send-requests-repeatedly.js` (in a different terminal)
 - View the graph output in the StrongLoop Arc Tracing module
 
 ---
@@ -64,10 +64,10 @@ some graphs load, but the data won't fluctuate because the server we started
 earlier is not busy handling requests yet.
 
 Create some variation in the graphs by running the [`send-requests-repeatedly`
-script](send-requests-repeatedly) to make repeated cURL requests to the server:
+script](send-requests-repeatedly.js) to make repeated HTTP requests to the server:
 
 ```
-./send-requests-repeatedly
+node send-requests-repeatedly.js
 ```
 
 Look at the tracing data again and you should see some fluctuations this time

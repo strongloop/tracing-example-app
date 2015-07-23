@@ -1,4 +1,0 @@
-while true; do
-  curl localhost:3001/spike
-  sleep ${1-10}
-done
