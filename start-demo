@@ -1,3 +1,27 @@
+echo "--------------------------"
+echo "`date` -- Restarting tracing example app"
+
+echo "*** Shutting down any running PM (and load generation)..."
+pkill -ecf repeatedly
+pkill -ecf "slc arc"
+slc ctl stop tracing-example-app
+
+echo "*** (Re)Starting PM..."
+sleep 2s
 slc start
-slc ctl set-size 1 1
-slc arc
+
+echo "*** Setting cluster size to 1..."
+slc ctl set-size tracing-example-app 1
+
+echo "*** Starting Arc on port 4000..."
+PORT=4000 nohup slc arc 1>../logs/tracing.log 2>../logs/tracing-err.log &
+
+echo "*** Turning on transaction tracing"
+slc ctl tracing-stop tracing-example-app
+slc ctl tracing-start tracing-example-app
+
+echo "*** Starting load generation (after 5s)..."
+sleep 3s
+node send-requests-repeatedly.js 1>/dev/null 2>1 &
+
+echo "*** ALL DONE! ***"
