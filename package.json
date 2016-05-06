@@ -17,10 +17,7 @@
     "module"
   ],
   "author": "Simon Ho <simon@strongloop.com> (http://github.com/superkhau)",
-  "license": {
-    "name": "StrongLoop",
-    "url": "https://github.com/strongloop/tracing-example-app/blob/master/LICENSE"
-  },
+  "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
     "url": "https://github.com/strongloop/tracing-example-app/issues"
   },
